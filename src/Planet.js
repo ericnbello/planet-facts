@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import SourceIcon from "./icons/SourceIcon";
-import tabs from "./data.json";
 
 const Planet = (props) => {
     const [openTab, setOpenTab] = useState(1);
